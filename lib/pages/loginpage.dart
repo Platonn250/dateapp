@@ -136,6 +136,9 @@ class _LoginpageState extends State<Loginpage> {
               onPressed: () {},
               child: Text("Or Login with"),
             ),
+            SizedBox(
+              height: 20,
+            ),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
