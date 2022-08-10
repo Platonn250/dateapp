@@ -3,6 +3,7 @@
 import 'package:dateapp/pages/choose_a_t_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class Loginpage extends StatefulWidget {
   final VoidCallback showRegisterPage;
@@ -45,10 +46,12 @@ class _LoginpageState extends State<Loginpage> {
                 alignment: Alignment.bottomLeft,
                 child: Text(
                   "Login",
-                  style: TextStyle(
-                    fontSize: 48,
-                    fontWeight: FontWeight.w700,
-                  ),
+                  style: GoogleFonts.bebasNeue(
+                      fontSize: 48, fontWeight: FontWeight.w700),
+                  // style: TextStyle(
+                  //   fontSize: 48,
+                  //   fontWeight: FontWeight.w700,
+                  // ),
                 ),
               ),
             ),
