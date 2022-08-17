@@ -1,6 +1,7 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
 
 import 'package:dateapp/pages/choose_a_t_page.dart';
+import 'package:dateapp/pages/home.dart';
 import 'package:flutter/material.dart';
 
 class RegisterPage extends StatefulWidget {
@@ -239,7 +240,7 @@ class _RegisterPageState extends State<RegisterPage> {
               child: GestureDetector(
                 onTap: (() {
                   Navigator.push(context, MaterialPageRoute(builder: (context) {
-                    return AccountType();
+                    return HomeView();
                   }));
                 }),
                 child: Container(

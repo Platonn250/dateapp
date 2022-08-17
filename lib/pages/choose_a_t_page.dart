@@ -143,7 +143,7 @@ class AccountType extends StatelessWidget {
               child: GestureDetector(
                 onTap: () {
                   Navigator.push(context, MaterialPageRoute(builder: (context) {
-                    return Home();
+                    return HomeView();
                   }));
                 },
                 child: Container(
